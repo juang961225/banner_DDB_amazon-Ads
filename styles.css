@@ -1,0 +1,105 @@
+.ad {
+    width: 300px;
+    height: 600px;
+    background-color: #00809a;
+    overflow: hidden;
+    position: relative;
+}
+.el {
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.logo {
+    background-image: url("./assets/logo.png");
+}
+.text1-1 {
+    background-image: url("./assets/1-1.png");
+}
+.text1-2 {
+    background-image: url("./assets/1-2.png");
+    transform-origin: 150px 400px;
+}
+.text2-1 {
+    background-image: url("./assets/2-1.png");
+}
+.text2-2 {
+    background-image: url("./assets/2-2.png");
+    transform-origin: 150px 250px;
+}
+.text3-1 {
+    background-image: url("./assets/3-1.png");
+}
+.text4-1 {
+    background-image: url("./assets/4-1.png");
+}
+.text4-2 {
+    background-image: url("./assets/4-2.png");
+}
+.text4-3 {
+    background-image: url("./assets/4-3.png");
+}
+.text4-4 {
+    background-image: url("./assets/4-4.png");
+}
+.text4-5 {
+    background-image: url("./assets/4-5.png");
+}
+.hand {
+    background-image: url("./assets/hand.png");
+    opacity: 1;
+    top: 300px;
+}
+.hand-mask {
+    position: absolute;
+    width: 300px;
+    height: 550px;
+    overflow: hidden;
+}
+.cta {
+    background-image: url("./assets/cta.png");
+    transform-origin: 150px 535px;
+    transition: top 1s ease-in-out, transform 0.2s ease-in-out;
+    top: 300px;
+    position: absolute;
+    width: 300px;
+    height: 600px;
+}
+.cta-hover {
+    transform: scale(1.2);
+}
+.cta-area {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    bottom: 40px;
+    left: 59px;
+}
+.cta-area:hover {
+    transform: scale(1.2);
+}
+.bg-exit {
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    top: 0;
+    left: 0;
+}
+.legal {
+    background-image: url("./assets/legal.png");
+    top: 100px;
+}
+.visible {
+    opacity: 1;
+}
+.bounce {
+    transform: scale(1.1);
+}
+.slide-up {
+    top: 0;
+}
+.slow {
+    transition: all 1s ease-in-out;
+}
